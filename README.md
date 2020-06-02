@@ -1,6 +1,6 @@
-## Lesson-27
+## Lesson-30
 
-We've moved our shop data into our firestore database, now we need to modify our application in such a way that considers our data being loaded asynchronously. We have created a WithSpinner HOC as well as modified our shop to initialize the call for data.
+In this lesson we are doing a large refactor! We need to convert all our sign in, sign up and authentication persistence checks into sagas. We don't necessarily need to do this for our application, but this is a good way to practice writing sagas in a real world application that may not leverage firebase/firestore or the observer pattern.
 
 # How to fork and clone
 
