@@ -1,6 +1,6 @@
-## Lesson-24
+## Lesson-27
 
-In this section, we are going to introduce our stripe integration and create a stripe button to help us leverage the stripe checkout library. Stripe is an excellent service that allows us to massively simplify our checkout flow, which would otherwise be incredibly complicated.
+We've moved our shop data into our firestore database, now we need to modify our application in such a way that considers our data being loaded asynchronously. We have created a WithSpinner HOC as well as modified our shop to initialize the call for data.
 
 # How to fork and clone
 
